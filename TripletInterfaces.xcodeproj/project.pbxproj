@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8893435B1B31138100321DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893435A1B31138100321DBC /* AppDelegate.swift */; };
+		8893435D1B31138100321DBC /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893435C1B31138100321DBC /* ViewControllerA.swift */; };
+		889343601B31138100321DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8893435E1B31138100321DBC /* Main.storyboard */; };
+		889343621B31138100321DBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889343611B31138100321DBC /* Images.xcassets */; };
+		889343651B31138100321DBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889343631B31138100321DBC /* LaunchScreen.xib */; };
+		889343711B31138100321DBC /* TripletInterfacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889343701B31138100321DBC /* TripletInterfacesTests.swift */; };
+		8893437B1B3113DA00321DBC /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893437A1B3113DA00321DBC /* ViewControllerB.swift */; };
+		8893437D1B3113E300321DBC /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8893437C1B3113E300321DBC /* ViewControllerC.swift */; };
+		889343811B311CDA00321DBC /* FinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889343801B311CDA00321DBC /* FinViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8893436B1B31138100321DBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8893434D1B31138100321DBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 889343541B31138100321DBC;
+			remoteInfo = TripletInterfaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		889343551B31138100321DBC /* TripletInterfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripletInterfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		889343591B31138100321DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8893435A1B31138100321DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8893435C1B31138100321DBC /* ViewControllerA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
+		8893435F1B31138100321DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		889343611B31138100321DBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		889343641B31138100321DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8893436A1B31138100321DBC /* TripletInterfacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripletInterfacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8893436F1B31138100321DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889343701B31138100321DBC /* TripletInterfacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripletInterfacesTests.swift; sourceTree = "<group>"; };
+		8893437A1B3113DA00321DBC /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		8893437C1B3113E300321DBC /* ViewControllerC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
+		889343801B311CDA00321DBC /* FinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		889343521B31138100321DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889343671B31138100321DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8893434C1B31138100321DBC = {
+			isa = PBXGroup;
+			children = (
+				889343571B31138100321DBC /* TripletInterfaces */,
+				8893436D1B31138100321DBC /* TripletInterfacesTests */,
+				889343561B31138100321DBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		889343561B31138100321DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				889343551B31138100321DBC /* TripletInterfaces.app */,
+				8893436A1B31138100321DBC /* TripletInterfacesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		889343571B31138100321DBC /* TripletInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				8893435A1B31138100321DBC /* AppDelegate.swift */,
+				8893435C1B31138100321DBC /* ViewControllerA.swift */,
+				8893437A1B3113DA00321DBC /* ViewControllerB.swift */,
+				8893437C1B3113E300321DBC /* ViewControllerC.swift */,
+				889343801B311CDA00321DBC /* FinViewController.swift */,
+				8893435E1B31138100321DBC /* Main.storyboard */,
+				889343611B31138100321DBC /* Images.xcassets */,
+				889343631B31138100321DBC /* LaunchScreen.xib */,
+				889343581B31138100321DBC /* Supporting Files */,
+			);
+			path = TripletInterfaces;
+			sourceTree = "<group>";
+		};
+		889343581B31138100321DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				889343591B31138100321DBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8893436D1B31138100321DBC /* TripletInterfacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				889343701B31138100321DBC /* TripletInterfacesTests.swift */,
+				8893436E1B31138100321DBC /* Supporting Files */,
+			);
+			path = TripletInterfacesTests;
+			sourceTree = "<group>";
+		};
+		8893436E1B31138100321DBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8893436F1B31138100321DBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		889343541B31138100321DBC /* TripletInterfaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889343741B31138100321DBC /* Build configuration list for PBXNativeTarget "TripletInterfaces" */;
+			buildPhases = (
+				889343511B31138100321DBC /* Sources */,
+				889343521B31138100321DBC /* Frameworks */,
+				889343531B31138100321DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripletInterfaces;
+			productName = TripletInterfaces;
+			productReference = 889343551B31138100321DBC /* TripletInterfaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		889343691B31138100321DBC /* TripletInterfacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889343771B31138100321DBC /* Build configuration list for PBXNativeTarget "TripletInterfacesTests" */;
+			buildPhases = (
+				889343661B31138100321DBC /* Sources */,
+				889343671B31138100321DBC /* Frameworks */,
+				889343681B31138100321DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8893436C1B31138100321DBC /* PBXTargetDependency */,
+			);
+			name = TripletInterfacesTests;
+			productName = TripletInterfacesTests;
+			productReference = 8893436A1B31138100321DBC /* TripletInterfacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8893434D1B31138100321DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "travis holt";
+				TargetAttributes = {
+					889343541B31138100321DBC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					889343691B31138100321DBC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 889343541B31138100321DBC;
+					};
+				};
+			};
+			buildConfigurationList = 889343501B31138100321DBC /* Build configuration list for PBXProject "TripletInterfaces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8893434C1B31138100321DBC;
+			productRefGroup = 889343561B31138100321DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				889343541B31138100321DBC /* TripletInterfaces */,
+				889343691B31138100321DBC /* TripletInterfacesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		889343531B31138100321DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889343601B31138100321DBC /* Main.storyboard in Resources */,
+				889343651B31138100321DBC /* LaunchScreen.xib in Resources */,
+				889343621B31138100321DBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889343681B31138100321DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		889343511B31138100321DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8893437B1B3113DA00321DBC /* ViewControllerB.swift in Sources */,
+				8893435D1B31138100321DBC /* ViewControllerA.swift in Sources */,
+				889343811B311CDA00321DBC /* FinViewController.swift in Sources */,
+				8893437D1B3113E300321DBC /* ViewControllerC.swift in Sources */,
+				8893435B1B31138100321DBC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		889343661B31138100321DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889343711B31138100321DBC /* TripletInterfacesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8893436C1B31138100321DBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 889343541B31138100321DBC /* TripletInterfaces */;
+			targetProxy = 8893436B1B31138100321DBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8893435E1B31138100321DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8893435F1B31138100321DBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		889343631B31138100321DBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				889343641B31138100321DBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		889343721B31138100321DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		889343731B31138100321DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		889343751B31138100321DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripletInterfaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.travisholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		889343761B31138100321DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripletInterfaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.travisholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		889343781B31138100321DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripletInterfacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.travisholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripletInterfaces.app/TripletInterfaces";
+			};
+			name = Debug;
+		};
+		889343791B31138100321DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripletInterfacesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.travisholt.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripletInterfaces.app/TripletInterfaces";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		889343501B31138100321DBC /* Build configuration list for PBXProject "TripletInterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889343721B31138100321DBC /* Debug */,
+				889343731B31138100321DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889343741B31138100321DBC /* Build configuration list for PBXNativeTarget "TripletInterfaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889343751B31138100321DBC /* Debug */,
+				889343761B31138100321DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		889343771B31138100321DBC /* Build configuration list for PBXNativeTarget "TripletInterfacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889343781B31138100321DBC /* Debug */,
+				889343791B31138100321DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8893434D1B31138100321DBC /* Project object */;
+}
